@@ -1,0 +1,51 @@
+.qrcodeImage {
+    display: flex;
+    flex: 1;
+}
+
+.center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+// .xclass {
+//     width: 620px !important;
+//     overflow: auto;
+// }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+    .xclass {
+        width: 250px !important;
+        overflow: auto;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .xclass {
+        width: 260px !important;
+        overflow: auto;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .xclass {
+        width: 620px !important;
+        overflow: auto;
+    }
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255 0 92);
+}
